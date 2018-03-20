@@ -1,0 +1,17 @@
+{
+  "name": "xamarin-extension",
+  "version": "0.1.0",
+  "description": "Zeplin extension for Xamarin Forms.",
+  "scripts": {
+    "start": "zem start",
+    "build": "zem build",
+    "clean": "zem clean",
+    "exec": "zem exec"
+  },
+  "zeplin": {
+    "displayName": "Xamarin Forms extension",
+    "projectTypes": [
+      "ios", "android", "osx"
+    ]
+  }
+}
